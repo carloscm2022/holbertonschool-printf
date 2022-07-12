@@ -29,6 +29,22 @@ The argument passed for specifier "%s" is a string in consta char *. "%s" prints
 The argument passed is not converted, it will only print a percent sign "%". To use this you must write "%%" (\\%\ also works).
 .IP i,d
 The argument passed is an int argument, "%i" or "%d" do a signed decimal conversion of an integer.
+
+.SH EXAMPLES
+.B Characters
+.PP
+_printf("Character with _print:[%c][%c][%c][%c]\n", 'H', 'o', 'l', 'b');
+.PP
+.I Output:
+Holb
+.PP
+.B Strings
+.PP
+_printf("String:[%s]\n", "Hello, Holberton!");
+.PP
+.I Output:
+Hello, Holberton
+
 .SH BUGS
 
 At the moment we do not find errors.
