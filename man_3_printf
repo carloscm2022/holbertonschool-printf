@@ -1,4 +1,4 @@
-.TH _printf "11 july 2022" "_printf man page"
+.TH _printf "11 july 2022" "_printf :man page"
 .SH NAME
 .B _printf - Format and print data in the screen.
 .SH SYNOPSIS
