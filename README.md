@@ -33,6 +33,8 @@ Format tags implemented in _printf
 | d or i        | int to signed decimal                 |
 
 .EXAMPLE
+
+````
 #include <limits.h>
 #include <stdio.h>
 #include "main.h"
@@ -102,6 +104,7 @@ Len:[12]
 Len:[12]
 Unknown:[%r]
 Unknown:[%r]
+````
 
 # Authors
 
