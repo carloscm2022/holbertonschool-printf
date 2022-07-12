@@ -21,10 +21,33 @@ In this project we will create our own _printf() function, that replicates the s
 |main.c                                |`File with which it will be tested if the "_printf" works correctly.`           |             
 |string_specifier.c  |     `Print a string.`                   |            
 |percent_specifier.c                               |`Print a percent symbol`                        
-|_putchar.c                              |`Writes the character c to stdout` 
+|_putchar.c                              |`Writes the character c to stdout`
 
+### Format tags
+Format tags implemented in _printf
 
+| **specifier** | **output**                            |
+|---------------|---------------------------------------|
+| c             | characters                            |
+| s             | string of characters                  |
+| d or i        | int to signed decimal                 |
 
+.EXAMPLES
+.B Characters
+.PP
+_printf("Character with _print:[%c][%c][%c][%c]\n", 'H', 'o', 'l', 'b');
+.PP
+.I Output:
+Holb
+.PP
+.B Strings
+.PP
+_printf("String:[%s]\n", "Hello, Holberton!");
+.PP
+.I Output:
+Hello, Holberton
 
-**Authors**
->Julieth Alvarado, Carlos Cantoral
+# Authors
+
+- Julieth Alvarado Calvo. (america02anarosa@gmail.com)
+- Carlos Cantoral Milián. (carloscr7cmreal@gmail.com)
